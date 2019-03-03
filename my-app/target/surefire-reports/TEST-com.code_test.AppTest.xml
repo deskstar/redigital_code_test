@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.code_test.AppTest" time="0.084" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\code_test\my-app\target\test-classes;C:\code_test\my-app\target\classes;C:\Users\IEUser\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\IEUser\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\IEUser\.m2\repository\org\json\json\20180813\json-20180813.jar;C:\Users\IEUser\.m2\repository\net\java\dev\jna\jna-platform\4.5.2\jna-platform-4.5.2.jar;C:\Users\IEUser\.m2\repository\net\java\dev\jna\jna\4.5.2\jna-4.5.2.jar;C:\Users\IEUser\.m2\repository\org\apache\httpcomponents\httpmime\4.5.7\httpmime-4.5.7.jar;C:\Users\IEUser\.m2\repository\org\apache\httpcomponents\httpcore\4.4.11\httpcore-4.4.11.jar;C:\Users\IEUser\.m2\repository\org\apache\httpcomponents\httpclient\4.5.7\httpclient-4.5.7.jar;C:\Users\IEUser\.m2\repository\org\apache\httpcomponents\fluent-hc\4.5.7\fluent-hc-4.5.7.jar;C:\Users\IEUser\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\IEUser\.m2\repository\commons-codec\commons-codec\1.12\commons-codec-1.12.jar;C:\Users\IEUser\.m2\repository\com\amazonaws\aws-java-sdk-s3\1.11.510\aws-java-sdk-s3-1.11.510.jar;C:\Users\IEUser\.m2\repository\com\amazonaws\aws-java-sdk-kms\1.11.510\aws-java-sdk-kms-1.11.510.jar;C:\Users\IEUser\.m2\repository\com\amazonaws\aws-java-sdk-core\1.11.510\aws-java-sdk-core-1.11.510.jar;C:\Users\IEUser\.m2\repository\software\amazon\ion\ion-java\1.0.2\ion-java-1.0.2.jar;C:\Users\IEUser\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.6.7.2\jackson-databind-2.6.7.2.jar;C:\Users\IEUser\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.6.0\jackson-annotations-2.6.0.jar;C:\Users\IEUser\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.6.7\jackson-core-2.6.7.jar;C:\Users\IEUser\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-cbor\2.6.7\jackson-dataformat-cbor-2.6.7.jar;C:\Users\IEUser\.m2\repository\joda-time\joda-time\2.8.1\joda-time-2.8.1.jar;C:\Users\IEUser\.m2\repository\com\amazonaws\jmespath-java\1.11.510\jmespath-java-1.11.510.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_201\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\IEUser\AppData\Local\Temp\surefire7952545607860674115\surefirebooter1403902652852825339.jar C:\Users\IEUser\AppData\Local\Temp\surefire7952545607860674115 2019-03-04T01-06-35_073-jvmRun1 surefire6167946497301753579tmp surefire_03268950600719528508tmp"/>
+    <property name="surefire.test.class.path" value="C:\code_test\my-app\target\test-classes;C:\code_test\my-app\target\classes;C:\Users\IEUser\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\IEUser\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\IEUser\.m2\repository\org\json\json\20180813\json-20180813.jar;C:\Users\IEUser\.m2\repository\net\java\dev\jna\jna-platform\4.5.2\jna-platform-4.5.2.jar;C:\Users\IEUser\.m2\repository\net\java\dev\jna\jna\4.5.2\jna-4.5.2.jar;C:\Users\IEUser\.m2\repository\org\apache\httpcomponents\httpmime\4.5.7\httpmime-4.5.7.jar;C:\Users\IEUser\.m2\repository\org\apache\httpcomponents\httpcore\4.4.11\httpcore-4.4.11.jar;C:\Users\IEUser\.m2\repository\org\apache\httpcomponents\httpclient\4.5.7\httpclient-4.5.7.jar;C:\Users\IEUser\.m2\repository\org\apache\httpcomponents\fluent-hc\4.5.7\fluent-hc-4.5.7.jar;C:\Users\IEUser\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\IEUser\.m2\repository\commons-codec\commons-codec\1.12\commons-codec-1.12.jar;C:\Users\IEUser\.m2\repository\com\amazonaws\aws-java-sdk-s3\1.11.510\aws-java-sdk-s3-1.11.510.jar;C:\Users\IEUser\.m2\repository\com\amazonaws\aws-java-sdk-kms\1.11.510\aws-java-sdk-kms-1.11.510.jar;C:\Users\IEUser\.m2\repository\com\amazonaws\aws-java-sdk-core\1.11.510\aws-java-sdk-core-1.11.510.jar;C:\Users\IEUser\.m2\repository\software\amazon\ion\ion-java\1.0.2\ion-java-1.0.2.jar;C:\Users\IEUser\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.6.7.2\jackson-databind-2.6.7.2.jar;C:\Users\IEUser\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.6.0\jackson-annotations-2.6.0.jar;C:\Users\IEUser\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.6.7\jackson-core-2.6.7.jar;C:\Users\IEUser\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-cbor\2.6.7\jackson-dataformat-cbor-2.6.7.jar;C:\Users\IEUser\.m2\repository\joda-time\joda-time\2.8.1\joda-time-2.8.1.jar;C:\Users\IEUser\.m2\repository\com\amazonaws\jmespath-java\1.11.510\jmespath-java-1.11.510.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\IEUser"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files (x86)\Java\jdk1.8.0_201\jre"/>
+    <property name="basedir" value="C:\code_test\my-app"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\IEUser\AppData\Local\Temp\surefire7952545607860674115\surefirebooter1403902652852825339.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.8.0_201\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_201\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.8.0_201\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.8.0_201\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_201\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_201\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_201\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_201\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="java.runtime.version" value="1.8.0_201-b09"/>
+    <property name="user.name" value="IEUser"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="6.1"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_201\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="localRepository" value="C:\Users\IEUser\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\IEUser\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_201"/>
+    <property name="user.dir" value="C:\code_test\my-app"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_201\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\OpenSSH\bin;C:\Program Files (x86)\Java\jdk1.8.0_201\bin;C:\Program Files (x86)\apache-maven-3.6.0\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.201-b09"/>
+    <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_201\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="shouldAnswerWithTrue" classname="com.code_test.AppTest" time="0"/>
+</testsuite>
