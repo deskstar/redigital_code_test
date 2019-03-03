@@ -83,6 +83,7 @@ public class CSVReader {
         }
 
 		//cater the requirement of user-specific sorting field
+	        //If the input not matching the field name, it would also sort by ID
 		if (userInput.equals(columnNames[0]))	{
 			Collections.sort(userInfoList, UserInfo.idComparator);
 		}	else if (userInput.equals(columnNames[1]))	{
@@ -97,7 +98,8 @@ public class CSVReader {
 			Collections.sort(userInfoList, UserInfo.ipComparator);
 		}	else if (userInput.equals(columnNames[6]))	{
 			Collections.sort(userInfoList, UserInfo.balanceComparator);
-		}
+		}	else	{
+			Collections.sort(userInfoList, UserInfo.idComparator);	}
 
 		//As we have 1000 records, so better to display it in GUI rather than command console
         JFrame jframe = new JFrame(); 
