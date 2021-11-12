@@ -1,0 +1,29 @@
+Here is the information regarding the coding test.
+ 
+The tasks are in increasing order of difficulty. It is not essential that you complete all tasks, we give the same set of tests to a wide variety of skill levels.  Just finish what you're comfortable with.  Don't spend the whole weekend on it.
+ 
+You can use whatever language you feel is your strongest to solve these tasks. You can use common libraries or packages to help solve these tasks (e.g for http requests, base64 encoding, s3 upload), but don't overuse them.  We want to see YOUR code, not someone else's.
+ 
+Write this code as you would real production code, e.g. consistent style, use appropriate comments, etc.
+ 
+Important: Include notes with each solution describing your approach, and why you felt it was the right way to solve the problem.
+ 
+You can send the code back to us via email, or put into a git repo, whatever is easier.
+ 
+1. Take a number as input, display the Fibonacci sequence, starting at 1, and ending at the largest value that is smaller than or equal to the input value.  Demonstrate both an iterative solution and a recursive solution.  https://en.wikipedia.org/wiki/Fibonacci_number
+ 
+2. Take a csv file (test_data.csv) and one user-specified field name from (id,first_name,last_name,email,gender,ip_address,balance) as input, return or display the file sorted alphanumerically by that field as output. If the field is 'id' or 'balance', sort by numerical value.
+ 
+3. Use the documentation at https://docs.aws.amazon.com/cognito/latest/developerguide/token-endpoint.html and the following credentials to authenticate against the OAuth2 server available at https://auth.dev.az.nz/oauth2/token/
+client_id: '45mvsvgqcrfs4f73jlp85paaqq'
+client_secret: 'tmbe69ekvku1h6180oj11ugf8b37ovigadfrsro1il65q8596ps'
+scope: 'keeper/document.archive keeper/document.read'
+grant_type: 'client_credentials'
+ 
+4. Using the details returned by the response from 3., issue a POST request to https://api.dev.az.nz/v1/upload with the 'Authorization' header set to 'token_type access_token', e.g. 'Authorization: Bearer eyJraWQiOiJDK1ZNNnlMN0RVMVJvT3Ftc...'
+ 
+5. Using the details returned by the response from 4., upload a file to Amazon S3.  You must find documentation on how to do this on your own.
+Note: the response from 4. will include the BucketName and the KeyPrefix you must use for the upload, for example if your file name is 'test.data' the s3 url you should upload to will be something like: 's3://azprivate/ingest/ap-southeast-2:xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxxx/test.data'
+The bucket will be in the ap-southeast-2 region.
+ 
+If you have any questions about what we have asked you to do, please do so today. Whatever we receive back from you by 9am Monday the 4th of March will be considered as your response. Anything received after this won’t be considered.
